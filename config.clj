@@ -10,5 +10,8 @@
  :encoding "UTF-8"
  :blog-as-index false
  :create-archives false
- :atomic-build true]
-
+ :atomic-build true
+ :user "idboehman_isaac"
+ :host "ssh.phx.nearlyfreespeech.net"
+ :deploy-dir "/home/public"
+ :rsync "/usr/bin/rsync"]
