@@ -10,18 +10,18 @@
    ;[:p "Lorem Ipsum is simply dummy text of the printing and typsetting industry."]
    [:p.sm 
     "3rd-year undergrad at Northeastern University working towards a combined "
-    "Bachelors of Science in Computer and Information Science."]]
-  ; contact tab
-  [:div {:class "tab-pane" :id "contact"}
-   [:h4 "Contact Information"]
+    "Bachelors of Science in Computer and Information Science."]
    [:hr]
    [:div.row
-    [:div.col-xs-6
-     [:p.sm
-      [:i.icon-linkedin.icon-2x] " - " [:a {:href "https://www.linkedin.com/in/idboehman/"} "idboehman "] [:br]
-      [:i.icon-globe.icon-2x] " - " [:a {:href "http://yacn.me"} "www.yacn.me "]]]
-    [:div.col-xs-6
-     [:p.sm
-      ;[:i.icon-envelope] " - isaac@isaacboehman.com " [:br]
-      [:i.icon-github.icon-2x] " - " [:a {:href "https://github.com/yacn"} "@yacn"] [:br]
-      [:i.icon-twitter.icon-2x] " - " [:a {:href "https://twitter.com/yaclevername"} "@yaclevername"]]]]]]]
+    [:div.col-xs-3
+     [:p
+      [:a {:href "https://www.linkedin.com/in/idboehman/"} [:i.icon-linkedin.icon-2x]]]]
+    [:div.col-xs-3
+     [:p
+      [:a {:href "http://yacn.me"} [:i.icon-globe.icon-2x]]]]
+    [:div.col-xs-3
+     [:p
+      [:a {:href "https://github.com/yacn"} [:i.icon-github.icon-2x]]]]
+    [:div.col-xs-3
+     [:p
+      [:a {:href "https://twitter.com/yaclevername"} [:i.icon-twitter.icon-2x]]]]]]]]
